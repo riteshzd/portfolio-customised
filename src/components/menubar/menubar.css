@@ -1,0 +1,26 @@
+.menubar{
+    height: 12vh;
+    background-color: #ACB992;
+    display: flex;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+.menubar-item.selected{
+    color: #362706;
+}
+
+.menubar-item.unselected{
+    color: #464E2E;
+}
+
+.menubar-item{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
