@@ -1,0 +1,49 @@
+.about{
+    height: 100vh;
+}
+
+.about-logo{
+    height: 15vh;
+    display: flex;
+    padding-left: 40%;
+    padding-right: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image.logo{
+    
+}
+
+.about-image.me{
+    width: 50%;
+}
+
+.about-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.about-info{
+    display: flex;
+    height: 80vh;
+}
+
+.about-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.about-description{
+    width: 50%;
+}
